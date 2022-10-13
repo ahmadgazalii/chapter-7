@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment Form</title>
+</head>
+<body>
+    <form action="http://www.example.com/login.php " method="post">
+
+        <fieldset>
+            <legend>Your Details</legend>
+
+            <p>
+                Name:
+                <input type="text" name="name" size="30">
+                
+            </p>
+            <p>Email:
+                <input type="email" name="email" size="30">
+
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Review</legend>
+            <p>How did you hear about us
+                <select name="chil" >
+
+                    <option value="Googel">Googel</option>
+                    <option value="Yahoo" >Yahoo</option>
+                    <option value="Youtoube">Youtoube</option>
+                    <option value="Twitter">Twitter</option>
+                    <option value="Instagram">Instagram</option>
+                </select>
+
+                <p>
+                    Would You Visit Again ?
+                   <label > <input  type="radio" name="ynm" value="Y">YES </label>
+                   <label ><input type="Radio" name="ynm" value="No">No</label>
+                   <label ><input type="Radio" name="ynm" value="Maybe">Maybe</label>
+                </p>
+
+                <p>
+                    Comments:
+                
+                </p>
+                <textarea name="Comments" cols="30" rows="4"></textarea>
+            </br>
+        </br>
+                <input type="checkbox" name="singin" value="singin">Sign me up for email updates
+            </br>  </br>
+
+                <input type="submit" >  Submit Review
+           
+        </fieldset>
+ 
+    </form>    
+    
+</body>
+</html>
